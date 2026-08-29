@@ -48,20 +48,31 @@ namespace Lab02
             Console.WriteLine("HP: 500 / 500");
             Console.WriteLine("Attack Power: 50");
             Console.WriteLine("Level: 99");
+            Console.WriteLine("Luck: 100");
             Console.WriteLine();
 
             Console.WriteLine("Name: Ignis");
             Console.WriteLine("Rank: A");
-            Console.WriteLine("HP: 320 / 350");
-            Console.WriteLine("Attack Power: 68.4");
+            Console.WriteLine("HP: 350 / 350");
+            Console.WriteLine("Attack Power: 67");
             Console.WriteLine("Level: 50");
+            Console.WriteLine("Luck: 16");
             Console.WriteLine();
 
             Console.WriteLine("Name: Luna");
             Console.WriteLine("Rank: B");
-            Console.WriteLine("HP: 210 / 250");
-            Console.WriteLine("Attack Power: 35.5");
+            Console.WriteLine("HP: 250 / 250");
+            Console.WriteLine("Attack Power: 30");
             Console.WriteLine("Level: 30");
+            Console.WriteLine("Luck: 14");
+            Console.WriteLine();
+
+            Console.WriteLine("Name: Michael");
+            Console.WriteLine("Rank: C");
+            Console.WriteLine("HP: 110 / 110");
+            Console.WriteLine("Attack Power: 10");
+            Console.WriteLine("Level: 5");
+            Console.WriteLine("Luck: 30");
             Console.WriteLine();
         }
     }
