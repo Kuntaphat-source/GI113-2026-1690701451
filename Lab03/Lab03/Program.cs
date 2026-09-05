@@ -32,12 +32,20 @@
 
             //Calculate Percent as double
             Console.WriteLine("\n----- Exact HP Percent (no interger truncation) -----");
-            double hpPercentExact = currentHpDouble = 100 / maxHp;
+            double hpPercentExact = currentHpDouble / maxHp * 100;
             Console.WriteLine($"HP Percent (exact): {hpPercentExact}%");
 
             //Explicit casting attackPower (float) --> int
+            Console.WriteLine("\n----- Explicit Cast: Attack Power -> Display Int -----");
+            int attackPowerInt = (int)attackpower;
+            Console.WriteLine($"Attack Power (int cast): {attackPowerInt}");
 
             //Cast vs. Convert: Crit Multiplier
+            Console.WriteLine("\n----- Cast vs Convert: Crit Multiplier -----");
+            int critCast = (int)critMultiplier;
+            int critConvert = Convert.ToInt32(critMultiplier);
+            Console.WriteLine($"Crit Multiplier (int cast): {critCast}");
+            Console.WriteLine($"Crit Multiplier (Convert rounded): {critConvert}");
         }
     }
 }
