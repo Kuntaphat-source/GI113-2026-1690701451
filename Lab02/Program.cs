@@ -5,8 +5,6 @@
 * No.        : N/A
 * Course     : GI113 Computer Programming (GI)
 */
-using static System.Runtime.InteropServices.JavaScript.JSType;
-
 namespace Lab02
 {
     internal class Program
