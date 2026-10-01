@@ -12,7 +12,7 @@ namespace Lab07
     {
         static void Main(string[] args)
         {
-            const int MonsterHp = 50;
+            const int MonsterHp = 10;
 
             Console.Write("Monster Defense: ");
             int.TryParse(Console.ReadLine(), out int monsterDefense);
