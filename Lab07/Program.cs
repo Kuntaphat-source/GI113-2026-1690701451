@@ -90,3 +90,6 @@ namespace Lab07
                     Console.WriteLine("Please type y or n.");
                     break;
             }
+        }
+    }
+} 
