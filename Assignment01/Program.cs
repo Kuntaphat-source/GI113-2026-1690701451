@@ -1,4 +1,11 @@
-﻿namespace Assignment01
+﻿/*
+* Student ID : 1690701451
+* Name        : Assignment01
+* Section     : 129B
+* No.         : N/A
+* Course      : GI113 Computer Programming (GI)
+*/
+namespace Assignment01
 {
     internal class Program
     {
